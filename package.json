@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "pinia": "^2.1.7",
+    "swiper": "^11.0.5",
     "vite-aliases": "^0.11.3",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"

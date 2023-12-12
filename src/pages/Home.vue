@@ -1,8 +1,9 @@
 <template>
     <div>
-        <h1>Homepage</h1>
+        <Carousel />
     </div>
 </template>
 
 <script setup>
+import Carousel from '@/components/Carousel.vue';
 </script>

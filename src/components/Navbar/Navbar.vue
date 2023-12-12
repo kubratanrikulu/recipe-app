@@ -3,7 +3,7 @@
     <div :class="'flex justify-between p-5 w-full items-center border-b border-[#eeedeb]'">
       <img :src="Logo" alt="" :class="'w-1/6'" />
       <ul :class="'flex'">
-        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/">H</router-link></li>
         <li><router-link to="/about">About</router-link></li>
       </ul>
       <div>
