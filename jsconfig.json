@@ -2,10 +2,42 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
-            "@/*": ["src/*"],
-            "@components/*": ["src/components/*"],
-            "@assets/*": ["src/assets/*"]
-          },
-          "include": ["src"],
+            "@/*": [
+                "src/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@assets/*": [
+                "src/assets/*"
+            ],
+            "~assets/*": [
+                "src/assets/*"
+            ],
+            "~components/*": [
+                "src/components/*"
+            ],
+            "~layout/*": [
+                "src/layout/*"
+            ],
+            "~pages/*": [
+                "src/pages/*"
+            ],
+            "~router/*": [
+                "src/router/*"
+            ],
+            "~/*": [
+                "src/*"
+            ],
+            "~Footer/*": [
+                "src/components/Footer/*"
+            ],
+            "~Homepage/*": [
+                "src/components/Homepage/*"
+            ]
+        },
+        "include": [
+            "src"
+        ]
     }
 }
